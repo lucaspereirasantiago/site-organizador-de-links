@@ -16,6 +16,9 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 
+    <!-- Scripts -->
+    <script src="js/scripts.js" defer></script>
+
     <title>Meu Organizador de Links</title>
 </head>
 <body>
@@ -26,11 +29,13 @@
         <h1>Meu Organizador de Links</h1>
     </div>
     <div class="block">
-        <h2>Título</h2>
-        <input type="text" name="nome" id="nome" placeholder="  Qual é o assunto?">
-        <h2>Link</h2>
-        <input type="text" name="link" id="link" placeholder="  Insira o link aqui">
-        <button id="organizar"><h3>Organizar</h3></button>
+        <form action=""  id="formulario">
+            <h2>Título</h2>
+            <input type="text" name="nome" id="nome" for="nome" placeholder="  Qual é o assunto?">
+            <h2>Link</h2>
+            <input type="text" name="link" id="link" for="link" placeholder="  Insira o link aqui">
+            <button type="submit" id="organizar" value="organizar" onclick="conteudo();"><h3>Organizar</h3></button>
+        </form>
     </div>
     <div id="conteudo">
         <h2>Meus Links</h2>
