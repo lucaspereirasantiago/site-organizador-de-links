@@ -3,7 +3,7 @@
     padding: 0;
     font-family: Ubuntu;
 }
-body {
+body{
     background-color: #242A80;
 }
 .titulo {
@@ -80,7 +80,6 @@ input:focus {
     margin-top: 30px;
     padding: 30px;
     max-height: 500px;
-    background-color: #161A50;
 }
 #conteudo > h2 {
     color: #F1F1F1;
@@ -101,6 +100,12 @@ input:focus {
     padding-top: 20px;
     margin-left: 30px;
     font-weight: 700;
+}
+#blocks {
+    margin-left: 50px;
+    margin-bottom: 80px;
+    list-style: none;
+    float: left;
 }
 #link-conteudo {
     margin-top: 50px;
