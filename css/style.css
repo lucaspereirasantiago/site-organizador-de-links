@@ -68,9 +68,10 @@ h2 {
     font-weight: 400;
 }
 #organizar:hover {
-    color: #ffffff;
+    color: #F1F1F1;
     background-color: #242A80;
-    transition: .3s;
+    transition: .2s;
+    cursor: pointer;
 }
 input:focus {
     box-shadow: 0 0 0 0;
@@ -119,7 +120,8 @@ input:focus {
     font-weight: 700;
 }
 #link-conteudo:hover {
-    color: #ffffff;
+    color: #F1F1F1;
     background-color: #242A80;
-    transition: .3s;
+    transition: .2s;
+    cursor: pointer;
 }
