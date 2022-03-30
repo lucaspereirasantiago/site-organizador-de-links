@@ -41,34 +41,38 @@ h2 {
     text-align: center;
 }
 #nome {
-    margin-left: 30px;
+    margin-left: 18px;
     width: 285px;
-    padding: 8px 0;
+    padding: 8px 15px;
     background-color: #F1F1F1;
     border-style: none;
     border-radius: 50px;
 }
 #link {
-    margin-left: 30px;
+    margin-left: 18px;
     width: 285px;
-    padding: 8px 0;
+    padding: 8px 15px;
     background-color: #F1F1F1;
     border-style: none;
-    border-radius: 50px;
+    border-radius: 60px;
 }
 #organizar {
     margin-top: 60px;
     margin-left: 123px;
     width: 100px;
     height: 40px;
-    padding: 10px 0px;
+    padding: 10px 0;
     background-color: #F1F1F1;
     border-style: none;
-    border-radius: 50px;  
+    border-radius: 60px;  
     font-weight: 400;
 }
 #organizar:hover {
     color: #ffffff;
     background-color: #242A80;
     transition: .3s;
+}
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0px;
 }
