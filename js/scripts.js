@@ -11,4 +11,10 @@ btn.addEventListener("click", (event) => {
     if(nomeValue === "" || linkValue === ""){
         errorMsg.textContent = "Preencha os campos!";
     }
+    
+    setTimeout(() => {
+        errorMsg.textContent = "";    
+    }, 3000);
+
+    return;
 });
