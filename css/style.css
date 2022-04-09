@@ -56,8 +56,14 @@ h2 {
     border-style: none;
     border-radius: 60px;
 }
+#errorMsg {
+    font-weight: 400;
+    margin-top: 15px;
+    text-align: center;
+    color: #FF0000;
+}
 #organizar {
-    margin-top: 60px;
+    margin-top: 50px;
     margin-left: 123px;
     width: 100px;
     height: 40px;
