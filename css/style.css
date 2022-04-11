@@ -56,7 +56,7 @@ h2 {
     border-style: none;
     border-radius: 60px;
 }
-#errorMsg {
+#errorAlert {
     font-weight: 400;
     margin-top: 15px;
     text-align: center;

@@ -1,7 +1,7 @@
 const inputNome = document.querySelector('#nome');
 const inputLink = document.querySelector('#link');
 const btn = document.querySelector('#organizar');
-const errorMsg = document.querySelector('#errorMsg');
+const errorAlert = document.querySelector('#errorAlert');
 
 btn.addEventListener("click", (event) => {
     event.preventDefault();
@@ -9,11 +9,11 @@ btn.addEventListener("click", (event) => {
     linkValue = inputLink.value;
 
     if(nomeValue === "" || linkValue === ""){
-        errorMsg.textContent = "Preencha os campos!";
+        errorAlert.textContent = "Preencha os campos!";
     }
     
     setTimeout(() => {
-        errorMsg.textContent = "";    
+        errorAlert.textContent = "";    
     }, 3000);
 
     return;
