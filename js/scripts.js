@@ -1,6 +1,7 @@
 const inputNome = document.querySelector('#nome');
 const inputLink = document.querySelector('#link');
 const btn = document.querySelector('#organizar');
+const scrollBtn = document.querySelector('#scrollBtn');
 const errorAlert = document.querySelector('#errorAlert');
 const sections = document.querySelector('.conteudo');
 
@@ -45,4 +46,11 @@ btn.addEventListener("click", (event) => {
     inputLink.value = '';
 
     return;
+});
+
+scrollBtn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
 });

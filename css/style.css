@@ -68,7 +68,7 @@ h2 {
     width: 100px;
     height: 40px;
     padding: 10px 0;
-    background-color: #242A80;
+    background-color: #2B38E7;
     color: #F1F1F1;
     border-style: none;
     border-radius: 60px;  
@@ -76,7 +76,7 @@ h2 {
 }
 #organizar:hover {
     color: #F1F1F1;
-    background-color: #008CFF;
+    background-color: #1EB101;
     transition: .5s;
     cursor: pointer;
 }
@@ -93,7 +93,30 @@ input:focus {
     color: #F1F1F1;
     font-size: 35px;
     margin-top: -20px;
+    margin-bottom: 10px;
+}
+#scroll {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+#scrollBtn {
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    border-style: none;
+    width: 27px;
+    height: 27px;
+    font-size: 25px;
+    font-weight: 500;
+    padding-top: 2px;
     margin-bottom: 80px;
+}
+#scrollBtn:hover{
+    color: #F1F1F1;
+    background-color: #1EB101;
+    transition: .5s;
+    cursor: pointer;
 }
 .block-conteudo {
     height: 150px;
@@ -121,15 +144,14 @@ input:focus {
     width: 120px;
     height: 35px;
     padding: 5px 0;
-    background-color: #242A80;
+    background-color: #2B38E7;
     border-style: none;
     border-radius: 60px;
     font-weight: 400;
 }
 .link-conteudo:hover {
     color: #F1F1F1;
-    background-color: #008CFF;
-    
+    background-color: #1EB101;
     transition: .5s;
     cursor: pointer;
 }
