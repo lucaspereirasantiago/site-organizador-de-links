@@ -29,6 +29,11 @@ btn.addEventListener("click", (event) => {
     
         sections.appendChild(divSections);
 
+        window.scrollTo({
+            top: 1000,
+            behavior: 'smooth'
+        });
+
     };
     
     setTimeout(() => {
