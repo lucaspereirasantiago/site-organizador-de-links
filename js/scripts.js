@@ -1,7 +1,8 @@
 const inputNome = document.querySelector('#nome');
 const inputLink = document.querySelector('#link');
 const btn = document.querySelector('#organizar');
-const scrollBtn = document.querySelector('#scrollBtn');
+const scrollBtn1 = document.querySelector('#scrollBtn1');
+const scrollBtn2 = document.querySelector('#scrollBtn2');
 const errorAlert = document.querySelector('#errorAlert');
 const sections = document.querySelector('.conteudo');
 
@@ -48,7 +49,14 @@ btn.addEventListener("click", (event) => {
     return;
 });
 
-scrollBtn.addEventListener('click', () => {
+scrollBtn1.addEventListener('click', () => {
+    window.scrollTo({
+        top: 1000,
+        behavior: 'smooth'
+    });
+});
+
+scrollBtn2.addEventListener('click', () => {
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
