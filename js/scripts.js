@@ -19,7 +19,7 @@ btn.addEventListener("click", (event) => {
         `<li class="sections">
             <div class="block-conteudo">
                 <h3 class="titulo-conteudo">${nomeValue}</h3>
-                <button class="link-conteudo"><a href="${linkValue}"
+                <button class="link-conteudo"><a id="link-btn" href="${linkValue}"
                 target="_blank">Ir para o link</a></button>
             </div>
         </li>`

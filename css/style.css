@@ -131,11 +131,11 @@ input:focus {
     transition: .2s;
     cursor: pointer;
 }
-.link-conteudo > a {
+#link-btn {
     text-decoration: none;
     color: #000000;
 }
-.link-conteudo > a:hover {
+#link-btn:hover {
     text-decoration: none;
     color: #F1F1F1;
 }
