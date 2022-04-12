@@ -68,15 +68,16 @@ h2 {
     width: 100px;
     height: 40px;
     padding: 10px 0;
-    background-color: #F1F1F1;
+    background-color: #242A80;
+    color: #F1F1F1;
     border-style: none;
     border-radius: 60px;  
     font-weight: 400;
 }
 #organizar:hover {
     color: #F1F1F1;
-    background-color: #242A80;
-    transition: .2s;
+    background-color: #008CFF;
+    transition: .5s;
     cursor: pointer;
 }
 input:focus {
@@ -119,21 +120,22 @@ input:focus {
     margin-left: 20px;
     width: 120px;
     height: 35px;
-    padding: 10px 0;
-    background-color: #F1F1F1;
+    padding: 5px 0;
+    background-color: #242A80;
     border-style: none;
     border-radius: 60px;
-    font-weight: 700;
+    font-weight: 400;
 }
 .link-conteudo:hover {
     color: #F1F1F1;
-    background-color: #242A80;
-    transition: .2s;
+    background-color: #008CFF;
+    
+    transition: .5s;
     cursor: pointer;
 }
 #link-btn {
     text-decoration: none;
-    color: #000000;
+    color: #F1F1F1;
 }
 #link-btn:hover {
     text-decoration: none;

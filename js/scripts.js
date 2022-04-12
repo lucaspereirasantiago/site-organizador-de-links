@@ -28,7 +28,7 @@ btn.addEventListener("click", (event) => {
         </li>`
     
         sections.appendChild(divSections);
-        
+
     };
     
     setTimeout(() => {
