@@ -10,8 +10,11 @@ btn.addEventListener("click", (event) => {
     linkValue = inputLink.value;
 
     if(nomeValue === "" || linkValue === ""){
+
         errorAlert.textContent = "Preencha os campos!";
+
     } else {
+
         const divSections = document.createElement("ul");
         divSections.classList = "blocks";
 
@@ -25,6 +28,7 @@ btn.addEventListener("click", (event) => {
         </li>`
     
         sections.appendChild(divSections);
+        
     };
     
     setTimeout(() => {
